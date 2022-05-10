@@ -2,6 +2,7 @@ import React from 'react';
 import Hello from './Hello';
 import Wrapper from './Wrapper';
 import Counter from './Counter';
+import InputSample from './InputSample';
 
 function App() {
   var 현재상태 = 'refund';
@@ -38,6 +39,11 @@ function App() {
       {/* useState 실습 */}
       <div>
         <Counter />
+      </div>
+
+      {/* input 실습 */}
+      <div>
+        <InputSample />
       </div>
     </>
   );
