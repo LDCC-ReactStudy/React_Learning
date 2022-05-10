@@ -6,6 +6,7 @@ function App() {
   var 현재상태 = 'refund';
   return (
     <>
+      {/* Props 실습 */}
       <div>
         <Hello name="hi" color="red" />
       </div>
@@ -20,11 +21,17 @@ function App() {
         }
       </div>
 
+      {/* Wrapper 실습 */}
       <div>
         <Wrapper>
           <Hello name="react" color="red" />
           <Hello color="pink" />
         </Wrapper>
+      </div>
+
+      {/* 조건부 렌더링 실습 */}
+      <div>
+        <Hello name="hi" color="red" flag={false} />
       </div>
     </>
   );
