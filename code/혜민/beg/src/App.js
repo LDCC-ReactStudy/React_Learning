@@ -1,6 +1,7 @@
 import React from 'react';
 import Hello from './Hello';
 import Wrapper from './Wrapper';
+import Counter from './Counter';
 
 function App() {
   var 현재상태 = 'refund';
@@ -32,6 +33,11 @@ function App() {
       {/* 조건부 렌더링 실습 */}
       <div>
         <Hello name="hi" color="red" flag={false} />
+      </div>
+
+      {/* useState 실습 */}
+      <div>
+        <Counter />
       </div>
     </>
   );
