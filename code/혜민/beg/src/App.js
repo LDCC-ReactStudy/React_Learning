@@ -3,6 +3,7 @@ import Hello from './Hello';
 import Wrapper from './Wrapper';
 import Counter from './Counter';
 import InputSample from './InputSample';
+import UserList from './UserList';
 
 function App() {
   var 현재상태 = 'refund';
@@ -44,6 +45,11 @@ function App() {
       {/* input 실습 */}
       <div>
         <InputSample />
+      </div>
+
+      {/* 배열 실습 */}
+      <div>
+        <UserList />
       </div>
     </>
   );
